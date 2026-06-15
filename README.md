@@ -32,7 +32,7 @@
 # 🌟 Awesome LLM Apps
 
 <p><strong>100+ AI Agent & RAG apps you can actually run — clone, customize, ship.</strong><br/>
-AI Agents · Multi-agent Teams · MCP Agents · RAG · Voice Agents · Agent Skills · Fine-tuning</p>
+AI Agents · Always-on Agents · Multi-agent Teams · MCP Agents · RAG · Voice Agents · Agent Skills · Fine-tuning</p>
 
 <p>
 <strong>Free step-by-step tutorials on <a href="https://www.theunwindai.com">Unwind AI</a></strong><br/>
@@ -69,7 +69,7 @@ You shouldn't have to rebuild the same RAG pipeline, agent loop, or MCP integrat
 
 - 🛠️ **Hand-built, not curated** - every template is original work, tested end-to-end before it ships.
 - 🧪 **Runs in 3 commands** - no broken `requirements.txt`, no "figure it out yourself" scaffolding.
-- 🧠 **Covers the modern AI stack** - AI Agents, Multi-agent Teams, MCP Agents, Voice AI Agents, RAG, Agent Skills, Fine-tuning.
+- 🧠 **Covers the modern AI stack** - AI Agents, Always-on Agents, Multi-agent Teams, MCP Agents, Voice AI Agents, RAG, Agent Skills, Fine-tuning.
 - 🌐 **Provider-agnostic** - switch between Claude, Gemini, GPT, Llama, Qwen, xAI and others with a config change.
 - 📚 **Step-by-step tutorials** - every featured template has a free walkthrough on [Unwind AI](https://www.theunwindai.com).
 - 💸 **Apache-2.0** - fork it, ship it, sell it. No paywall, no signup, no telemetry.
@@ -92,7 +92,7 @@ streamlit run travel_agent.py
 
 | Template | What it does | Stack |
 |---|---|---|
-| [📡 Earnings Call Analyst Agent](advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/) | YouTube earnings calls become quote-synced analyst cards with ADK, Gemini, filings, and grounded market news | ADK + Gemini |
+| [📰 Always-on Hacker News Briefing Agent](always_on_agents/always_on_hn_briefing_agent/) | Scheduled Hacker News scout that filters AI agent and LLM app signals into a delivery-ready daily brief | ADK + Agent Runtime |
 | [🛡️ Insurance Claim Live Agent Team](voice_ai_agents/insurance_claim_live_agent_team/) | Real-time voice claim intake with Gemini Live and ADK | Voice + ADK |
 | [🏠 Home Renovation Agent](advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent) | Photo → AI redesign with Nano Banana Pro | Vision + Multi-agent |
 | [♾️ Self-Improving Agent Skills](awesome_agent_skills/self-improving-agent-skills/) | Automatically optimize agent skills using Gemini and ADK | Agent Skills + ADK |
@@ -102,10 +102,11 @@ streamlit run travel_agent.py
 ## 📑 Table of Contents
 
 <details open>
-<summary><strong>14 categories · Click to expand</strong></summary>
+<summary><strong>15 categories · Click to expand</strong></summary>
 
 - [🌱 Starter AI Agents](#-starter-ai-agents)
 - [🚀 Advanced AI Agents](#-advanced-ai-agents)
+- [🛰️ Always-on Agents](#️-always-on-agents)
 - [🤝 Multi-agent Teams](#-multi-agent-teams)
 - [🗣️ Voice AI Agents](#️-voice-ai-agents)
 - [🖼️ Generative UI and Agentic Frontends](#️-generative-ui-and-agentic-frontends)
@@ -164,6 +165,11 @@ streamlit run travel_agent.py
 *   [🎧 AI Social Media News and Podcast Agent](advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/)
 *   [🌐 Openwork - Open Browser Automation Agent](https://github.com/accomplish-ai/openwork) <sub>↗ external</sub>
 *   [🛡️ Trust-Gated Multi-Agent Research Team](advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/)
+
+### 🛰️ Always-on Agents
+*Background agents that run on schedules or events, monitor changing context, decide what needs attention, and proactively deliver updates, artifacts, or actions.*
+
+*   [📰 Always-on Hacker News Briefing Agent](always_on_agents/always_on_hn_briefing_agent/)
 
 ### 🤝 Multi-agent Teams
 *Multiple agents collaborating to accomplish complex, cross-domain tasks.*
